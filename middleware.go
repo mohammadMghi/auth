@@ -2,8 +2,8 @@ package auth
 
 import (
 	gm "github.com/go-ginger/models"
-	"github.com/go-m/auth/base"
-	"github.com/go-m/auth/refresh"
+	"github.com/mohammadMghi/auth/base"
+	"github.com/mohammadMghi/auth/refresh"
 )
 
 func (h *Handler) middleware(request gm.IRequest) (result interface{}) {

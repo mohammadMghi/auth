@@ -2,7 +2,7 @@ package otp
 
 import (
 	"fmt"
-	"github.com/go-m/auth/base"
+	"github.com/mohammadMghi/auth/base"
 )
 
 type RequestModel interface {

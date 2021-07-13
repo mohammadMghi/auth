@@ -5,8 +5,8 @@ import (
 	g "github.com/go-ginger/ginger"
 	gm "github.com/go-ginger/models"
 	"github.com/go-ginger/models/errors"
-	"github.com/go-m/auth/base"
-	"github.com/go-m/auth/refresh"
+	"github.com/mohammadMghi/auth/base"
+	"github.com/mohammadMghi/auth/refresh"
 	"github.com/nicksnyder/go-i18n/v2/i18n"
 	"golang.org/x/crypto/bcrypt"
 )

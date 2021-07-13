@@ -6,7 +6,7 @@ import (
 	"fmt"
 	gm "github.com/go-ginger/models"
 	"github.com/go-ginger/models/errors"
-	"github.com/go-m/auth/base"
+	"github.com/mohammadMghi/auth/base"
 	"github.com/nicksnyder/go-i18n/v2/i18n"
 	"log"
 	"math"
