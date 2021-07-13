@@ -8,6 +8,7 @@ import (
 	"github.com/go-ginger/models/errors"
 	"github.com/go-m/auth/base"
 	"github.com/go-m/auth/refresh"
+	"log"
 	"net/http"
 	"strings"
 	"time"
@@ -108,6 +109,10 @@ func (h *JwtLoginHandler) Login(request gm.IRequest, config *base.Config, key st
 		return
 	}
 	expiresIn := int(config.TokenExp.Seconds())
+
+	log.Println(fmt.Sprintf("Jwt Test, access_token: %s", tokenString))
+	log.Println(fmt.Sprintf("Jwt Test refresh_token: %s", refreshToken.Value))
+
 	resultMap := map[string]interface{}{
 		"access_token":       tokenString,
 		"refresh_token":      refreshToken.Value,
